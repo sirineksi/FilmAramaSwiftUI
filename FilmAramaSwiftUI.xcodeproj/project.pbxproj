@@ -11,6 +11,8 @@
 		23B5E0AA2A249C4B00AABE82 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B5E0A92A249C4B00AABE82 /* ContentView.swift */; };
 		23B5E0AC2A249C4E00AABE82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23B5E0AB2A249C4E00AABE82 /* Assets.xcassets */; };
 		23B5E0AF2A249C4E00AABE82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23B5E0AE2A249C4E00AABE82 /* Preview Assets.xcassets */; };
+		23B5E0BA2A249D6500AABE82 /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B5E0B92A249D6500AABE82 /* Film.swift */; };
+		23B5E0BD2A24A2E300AABE82 /* DownloaderClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B5E0BC2A24A2E300AABE82 /* DownloaderClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		23B5E0A92A249C4B00AABE82 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		23B5E0AB2A249C4E00AABE82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23B5E0AE2A249C4E00AABE82 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		23B5E0B92A249D6500AABE82 /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		23B5E0BC2A24A2E300AABE82 /* DownloaderClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloaderClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,11 @@
 		23B5E0A62A249C4B00AABE82 /* FilmAramaSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				23B5E0A72A249C4B00AABE82 /* FilmAramaSwiftUIApp.swift */,
-				23B5E0A92A249C4B00AABE82 /* ContentView.swift */,
+				23B5E0BB2A24A26300AABE82 /* Servis */,
+				23B5E0B82A249D0E00AABE82 /* App */,
+				23B5E0B72A249D0100AABE82 /* View */,
+				23B5E0B62A249CF300AABE82 /* ViewModel */,
+				23B5E0B52A249CD800AABE82 /* Model */,
 				23B5E0AB2A249C4E00AABE82 /* Assets.xcassets */,
 				23B5E0AD2A249C4E00AABE82 /* Preview Content */,
 			);
@@ -65,6 +72,45 @@
 				23B5E0AE2A249C4E00AABE82 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		23B5E0B52A249CD800AABE82 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				23B5E0B92A249D6500AABE82 /* Film.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		23B5E0B62A249CF300AABE82 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		23B5E0B72A249D0100AABE82 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				23B5E0A92A249C4B00AABE82 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		23B5E0B82A249D0E00AABE82 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				23B5E0A72A249C4B00AABE82 /* FilmAramaSwiftUIApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		23B5E0BB2A24A26300AABE82 /* Servis */ = {
+			isa = PBXGroup;
+			children = (
+				23B5E0BC2A24A2E300AABE82 /* DownloaderClient.swift */,
+			);
+			path = Servis;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +184,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				23B5E0AA2A249C4B00AABE82 /* ContentView.swift in Sources */,
+				23B5E0BA2A249D6500AABE82 /* Film.swift in Sources */,
 				23B5E0A82A249C4B00AABE82 /* FilmAramaSwiftUIApp.swift in Sources */,
+				23B5E0BD2A24A2E300AABE82 /* DownloaderClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
