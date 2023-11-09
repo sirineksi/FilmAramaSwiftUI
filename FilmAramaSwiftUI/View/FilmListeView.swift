@@ -10,7 +10,7 @@ import SwiftUI
 struct FilmListeView: View {
      
      @ObservedObject var filmListeViewModel : FilmListViewModel
-    @State var aranacakFilm = ""
+     @State var aranacakFilm = ""
       
       init() {
           self.filmListeViewModel = FilmListViewModel()
